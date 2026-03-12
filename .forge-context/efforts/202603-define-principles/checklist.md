@@ -9,19 +9,19 @@ tracks milestones and ongoing health.
 ## Initial Setup
 
 - [x] Epic directory created
-- [ ] Problem statement drafted in effort.md
-- [ ] Initial stakeholders identified
+- [x] Problem statement drafted in effort.md
+- [x] Initial stakeholders identified
 
 ## Problem Framing
 
-- [ ] Problem space clearly defined
-- [ ] "Why now?" articulated
-- [ ] Current state documented
-- [ ] Key stakeholders identified with needs/impact
+- [x] Problem space clearly defined
+- [x] "Why now?" articulated
+- [x] Current state documented
+- [x] Key stakeholders identified with needs/impact
 
 ## Story Refinement
 
-- [ ] Initial user stories captured
+- [x] Initial user stories captured
 - [ ] At least one story refined to "Ready" status
 - [ ] Acceptance criteria defined for ready stories
 
@@ -45,8 +45,8 @@ progressing._
 | Indicator | Status | Last Checked |
 |-----------|--------|--------------|
 | Active contributors | @jbayer | 2026-03-12 |
-| Open threads being worked | - | - |
-| Stories progressing | - | - |
+| Open threads being worked | 3 (TH-001, TH-002, TH-003) | 2026-03-12 |
+| Stories progressing | 3 draft (ST-001, ST-002, ST-003) | 2026-03-12 |
 | Candidates identified | - | - |
 
 ---
@@ -57,3 +57,4 @@ _Record any observations about epic health or
 blockers._
 
 - 2026-03-12: Epic initialized
+- 2026-03-12: Problem framing complete, 3 stories and 3 requirements drafted, 3 threads opened
