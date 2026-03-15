@@ -286,12 +286,9 @@ Active areas of investigation.
 
 **Type:** Decision
 
-**Status:** Investigating
+**Status:** Resolved
 
-**Context:**
-- Current project root contains only README.md and config directories
-- The choice affects discoverability and whether the structure needs reorganization later
-- Simplest option is root-level, but a directory may be cleaner as content grows
+**Resolution (2026-03-15):** Root level -- `principles.md` alongside `README.md`. The content files are the project; three markdown files at the root is clean and discoverable. No need for a subdirectory at this scale.
 
 ### TH-003: Diagram Format
 

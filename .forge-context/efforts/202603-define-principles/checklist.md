@@ -45,7 +45,7 @@ progressing._
 | Indicator | Status | Last Checked |
 |-----------|--------|--------------|
 | Active contributors | @jbayer | 2026-03-12 |
-| Open threads being worked | 2 (TH-002, TH-003) | 2026-03-15 |
+| Open threads being worked | 1 (TH-003) | 2026-03-15 |
 | Stories progressing | 1 ready (ST-001), 2 draft (ST-002, ST-003) | 2026-03-15 |
 | Candidates identified | 1 (SL-001 accepted) | 2026-03-15 |
 
