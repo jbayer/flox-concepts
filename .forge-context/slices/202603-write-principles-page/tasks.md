@@ -7,6 +7,8 @@
 
 | ID | Task | Estimate | Status | Notes |
 |----|------|----------|--------|-------|
+| T1 | Write principles.md | S | done | Intro, 3 principles, outro |
+| T2 | Update README.md to link to principles | S | done | — |
 
 ## Status Values
 
