@@ -11,9 +11,9 @@ are reviewed, then spawned as stories in
 | Status | Count |
 |--------|-------|
 | Pending Review | 0 |
-| Accepted | 1 |
+| Accepted | 0 |
 | Spawned | 0 |
-| Completed | 1 |
+| Completed | 2 |
 | **Total** | **2** |
 
 ---
@@ -32,7 +32,7 @@ _Reviewed and approved, ready to spawn via
 
 ### SL-002: Add Diagrams to Principles Page
 
-**Status:** `accepted`
+**Status:** `completed`
 
 **Summary:** Add four Mermaid diagrams inline in principles.md: one overview flow (Principles → Concepts → Platform Implementation) and one per principle (Reproducibility, Efficiency, Simplicity).
 
@@ -78,6 +78,7 @@ _Stories created from this epic._
 | ID | Story | Spawned | Status | Items | Link |
 |----|-------|---------|--------|-------|------|
 | SL-001 | Write the Principles Page | 2026-03-15 | Completed | ST-001, ST-002 | PR #2 (merged) |
+| SL-002 | Add Diagrams to Principles Page | 2026-03-15 | Completed | ST-003 | PR #3 (merged) |
 
 ---
 

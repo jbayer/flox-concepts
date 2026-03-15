@@ -56,7 +56,7 @@ vs what's still open._
 |------------|--------|------------|
 | ST-001: Draft principles content | completed | SL-001 (merged PR #2) |
 | ST-002: Determine file placement | completed | SL-001 (folded in, merged PR #2) |
-| ST-003: Visual diagrams for principles | ready | SL-002 |
+| ST-003: Visual diagrams for principles | completed | SL-002 (merged PR #3) |
 
 **Status values:**
 - `draft` / `refined` / `ready` -- Still exploring
