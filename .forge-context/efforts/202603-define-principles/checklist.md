@@ -22,17 +22,17 @@ tracks milestones and ongoing health.
 ## Story Refinement
 
 - [x] Initial user stories captured
-- [ ] At least one story refined to "Ready" status
-- [ ] Acceptance criteria defined for ready stories
+- [x] At least one story refined to "Ready" status
+- [x] Acceptance criteria defined for ready stories
 
 ## Scope Identification
 
-- [ ] First story candidate identified
-- [ ] Acceptance criteria clear and testable
+- [x] First story candidate identified
+- [x] Acceptance criteria clear and testable
 
 ## Story Spawning
 
-- [ ] Candidate approved
+- [x] Candidate approved
 - [ ] Story spawned from candidate
 
 ---
@@ -45,9 +45,9 @@ progressing._
 | Indicator | Status | Last Checked |
 |-----------|--------|--------------|
 | Active contributors | @jbayer | 2026-03-12 |
-| Open threads being worked | 3 (TH-001, TH-002, TH-003) | 2026-03-12 |
-| Stories progressing | 3 draft (ST-001, ST-002, ST-003) | 2026-03-12 |
-| Candidates identified | - | - |
+| Open threads being worked | 2 (TH-002, TH-003) | 2026-03-15 |
+| Stories progressing | 1 ready (ST-001), 2 draft (ST-002, ST-003) | 2026-03-15 |
+| Candidates identified | 1 (SL-001 accepted) | 2026-03-15 |
 
 ---
 

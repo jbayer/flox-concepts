@@ -54,8 +54,8 @@ vs what's still open._
 
 | Capability | Status | Resolution |
 |------------|--------|------------|
-| ST-001: Draft principles content | draft | -- |
-| ST-002: Determine file placement | draft | -- |
+| ST-001: Draft principles content | ready | SL-001 |
+| ST-002: Determine file placement | draft | SL-001 (folded in) |
 | ST-003: Visual diagrams for principles | draft | -- |
 
 **Status values:**
@@ -89,23 +89,37 @@ _User stories discovered during epic._
 
 ### ST-001: Draft Principles Content
 
-**Status:** `draft`
+**Status:** `ready`
 
-**As a** newcomer with no Flox or Nix background,
-**I want to** read a plain-language explanation of why reproducible environments matter,
-**So that** I understand the motivation before encountering any specific technology.
+**As a** stakeholder involved in managing custom software,
+**I want to** read a plain-language explanation of the principles behind the platform,
+**So that** I understand the motivation before encountering any specific technology or concepts.
 
 **Acceptance Criteria:**
-- [ ] Covers all five candidate principles: reproducibility, skip unnecessary work, trust through verification, automate toil, simple upgrades and rollbacks
+- [ ] Covers three principles: Reproducibility, Efficiency, Simplicity
+- [ ] Each principle has a heading, one-line summary, and a few sentences expanding "why this matters"
 - [ ] Each principle is explained without referencing Flox, Nix, or any specific tool
+- [ ] Each principle is memorable and could be explained in one sentence
 - [ ] Language is plain-spoken and brief (team writing principles)
-- [ ] A reader with no technical background can understand each principle
+- [ ] Total length is no more than one page
+- [ ] Intro clarifies that these principles are deeply ingrained beliefs that shaped the platform, and that understanding them helps readers understand why it works the way it does and where it's headed
+- [ ] Outro references how the principles are applied as concepts (transition to Concepts layer)
 - [ ] Principles connect logically -- reading order makes sense
 
+**Refined Principles (2026-03-15):**
+1. **Reproducibility** -- Same inputs, same results -- and you can prove it
+2. **Efficiency** -- Do work early and repeatably reuse the results
+3. **Simplicity** -- Managing the software you work with should be straightforward
+
+**Structure:** Heading + one-line summary + expanding "why this matters" paragraph per principle
+
 **Notes:**
-- The five candidate principles from @jbayer are a starting point, not necessarily final
-- Each principle needs a clear "why this matters to you" angle
-- See TH-001 for open question on principle granularity
+- Consolidated from five candidate principles to three (see TH-001 resolution)
+- "Verification" folded into Reproducibility ("and you can prove it")
+- "Skip unnecessary work" and "automate toil" merged into Efficiency
+- "Simple upgrades and rollbacks" broadened into general Simplicity principle
+- Audience: stakeholders involved in managing custom software (not purely non-technical, not deep engineers)
+- Avoid the term "environment" at the principles layer -- too jargon-heavy
 
 ### ST-002: Determine File Placement
 
@@ -211,7 +225,7 @@ not commitments._
 - Detailed technical explanations of how any principle is implemented
 
 ### Unknown / To Investigate
-- Whether five principles is the right number or if some should be merged/split
+- ~~Whether five principles is the right number or if some should be merged/split~~ (resolved: consolidated to three)
 - What diagram format works best given the rendering targets
 - Whether the file should include a brief "what's next" section pointing to Concepts
 
@@ -235,6 +249,21 @@ These are rough framings. Discovery work will refine the language, determine the
 
 Key assumption (team intuition): these five principles cover the essential "why" for reproducible environments. This should be validated -- are there gaps? Do conference conversations surface questions these principles do not answer?
 
+### 2026-03-15 Principle Consolidation
+
+Refined from five candidate principles to three. Key drivers:
+- Five felt exhaustive rather than memorable
+- "Skip unnecessary work" and "automate toil" had significant overlap
+- "Simple upgrades and rollbacks" was too narrow -- usability applies to the whole approach, not just upgrades
+- "Verification" is a natural part of reproducibility, not a standalone idea
+
+**Refined principles:**
+1. **Reproducibility** -- Same inputs, same results -- and you can prove it
+2. **Efficiency** -- Do work early and repeatably reuse the results
+3. **Simplicity** -- Managing the software you work with should be straightforward
+
+Deliberately avoided the term "environment" in the Simplicity principle to keep language plain-spoken and avoid jargon that needs definition at the principles layer.
+
 ---
 
 ## Open Threads
@@ -247,12 +276,9 @@ Active areas of investigation.
 
 **Type:** Clarification
 
-**Status:** Investigating
+**Status:** Resolved
 
-**Context:**
-- The five candidates came from @jbayer's conference experience
-- Some principles may overlap in practice (efficiency vs. automation)
-- Missing angles might include: collaboration/sharing, security, or developer experience
+**Resolution (2026-03-15):** Consolidated from five principles to three. "Skip unnecessary work" and "automate toil" merged into **Efficiency**. "Trust through verification" folded into **Reproducibility** ("and you can prove it"). "Simple upgrades and rollbacks" broadened into **Simplicity** covering overall usability, not just upgrades. Three principles are more memorable and avoid overlap. The usability angle (Simplicity) was underrepresented in the original five.
 
 ### TH-002: File Placement in Project Structure
 
