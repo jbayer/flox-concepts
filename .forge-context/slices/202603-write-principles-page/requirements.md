@@ -58,7 +58,11 @@ Write a single markdown file containing an intro paragraph, three principle sect
 
 ## Open Questions
 
-- Where should principles.md live? Root level or a content directory? (TH-002 from epic)
+_None remaining._
+
+### Resolved
+
+- **File placement (TH-002):** Root level (`principles.md` alongside `README.md`). The content files are the project -- three markdown files at the root is clean and discoverable.
 
 ---
 
