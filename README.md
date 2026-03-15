@@ -2,9 +2,9 @@
 
 This is a collection of markdown files that explains Flox incrementally in simple, plain language.
 
-## Principles
+## [Principles](principles.md)
 
-The principles page is intended to explain foundational principles. Principles are not about specific details of any particular technology, but rather about "The why".
+The principles page explains foundational principles. Principles are not about specific details of any particular technology, but rather about "the why".
 
 ## Concepts
 
