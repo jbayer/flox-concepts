@@ -7,8 +7,8 @@
 
 | ID | Task | Estimate | Status | Notes |
 |----|------|----------|--------|-------|
-| T1 | Add per-principle Mermaid diagrams | S | pending | One per principle section |
-| T2 | Add overview flow diagram | S | pending | Principles → Concepts → Platform |
+| T1 | Add per-principle Mermaid diagrams | S | done | One per principle section |
+| T2 | Add overview flow diagram | S | done | Principles → Concepts → Platform |
 
 ## Status Values
 
