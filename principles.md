@@ -1,18 +1,18 @@
 # Principles
 
-These principles are deeply ingrained in our beliefs and in the platform we have created. Understanding them will help you understand why the platform works the way it does and where we are taking it.
+These principles are deeply ingrained in our beliefs and Flox. Understanding them will help you understand why Flox works the way it does and where it is going from here.
 
 ## Reproducibility
 
 Same inputs, same results -- and you can prove it.
 
-When you set up software, the result should be predictable. If you and a colleague start from the same description of what's needed, you should end up with the same thing -- every time, on every machine. This is not just about convenience. It is about removing an entire class of problems where something works in one place but not another. When you can also verify that two setups are identical, you move from hoping things are consistent to knowing they are.
+When you set up software, the result should be predictable. If you and a colleague start from the same description of what's needed, you should end up with the same thing -- every time, on every machine. This is not just about convenience. It is about removing an entire class of problems where something works in one place but not another. Confidence comes from verification, so it is essential that each step in the process is verifiable.
 
 ## Efficiency
 
-Do work early and repeatably reuse the results.
+Do work once. Repeatably reuse the results.
 
-Building and configuring software takes time. Much of that time is spent repeating work that has already been done -- recompiling the same code, re-downloading the same dependencies, re-running the same setup steps. If work is done once and the results are stored for reuse, every subsequent setup becomes faster. Teams spend less time waiting and more time on the work that matters.
+Building and configuring software takes time. Much of that time is spent repeating work that has already been done -- recompiling the same code, re-downloading the same dependencies, storing duplicate copies of something on-disk, re-running the same setup steps. If work is done once and the results are stored for reuse, every subsequent setup becomes faster. Teams spend less time waiting and more time on the work that matters.
 
 ## Simplicity
 
@@ -22,4 +22,4 @@ Setting up a project, making changes, sharing your setup with a teammate, upgrad
 
 ---
 
-These principles guide how we think about concepts like environments, packages, and dependency management. To see how they translate into practice, continue to [Concepts](concepts.md).
+These principles guide Flox concepts like environments, packages, and dependency management. To see how they translate into practice, continue to [Concepts](concepts.md).
