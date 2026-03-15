@@ -54,9 +54,9 @@ vs what's still open._
 
 | Capability | Status | Resolution |
 |------------|--------|------------|
-| ST-001: Draft principles content | ready | SL-001 |
-| ST-002: Determine file placement | draft | SL-001 (folded in) |
-| ST-003: Visual diagrams for principles | draft | -- |
+| ST-001: Draft principles content | completed | SL-001 (merged PR #2) |
+| ST-002: Determine file placement | completed | SL-001 (folded in, merged PR #2) |
+| ST-003: Visual diagrams for principles | ready | SL-002 |
 
 **Status values:**
 - `draft` / `refined` / `ready` -- Still exploring
@@ -141,21 +141,25 @@ _User stories discovered during epic._
 
 ### ST-003: Visual Diagrams for Principles
 
-**Status:** `draft`
+**Status:** `ready`
 
 **As a** newcomer reading the principles page,
-**I want to** see visual diagrams that illustrate key concepts,
-**So that** I can quickly grasp ideas that are harder to convey in text alone.
+**I want to** see a diagram showing how principles feed into concepts which feed into the platform implementation,
+**So that** I understand how the content layers connect and that principles are the foundation of everything.
 
 **Acceptance Criteria:**
-- [ ] At least one diagram accompanies the principles content
-- [ ] Diagrams are renderable in standard markdown (Mermaid, inline SVG, or image references)
+- [ ] Mermaid flowchart showing Principles → Concepts → Platform Implementation
+- [ ] Mermaid diagram for Reproducibility: same inputs → same outputs on multiple machines
+- [ ] Mermaid diagram for Efficiency: work done once → cached → reused many times
+- [ ] Mermaid diagram for Simplicity: common tasks (setup, change, share, rollback) all being simple
+- [ ] All diagrams are inline in principles.md
 - [ ] Diagrams reinforce the text rather than duplicating it
+- [ ] All diagrams render correctly on GitHub
 
 **Notes:**
-- Team principle: "visual diagrams are essential"
-- Diagram format decision may depend on where this content is rendered (GitHub, docs site, etc.)
-- See TH-003 for investigation on diagram approach
+- Format: Mermaid (TH-003 resolved)
+- Four diagrams total: one overview flow + one per principle
+- More diagrams can be added later as content evolves
 
 ---
 
@@ -296,13 +300,9 @@ Active areas of investigation.
 
 **Type:** Decision
 
-**Status:** Investigating
+**Status:** Resolved
 
-**Context:**
-- Team principle: "visual diagrams are essential"
-- If content is primarily read on GitHub, Mermaid has native support
-- If a docs site is planned later, other formats may be more flexible
-- Simpler is better for a markdown-only project
+**Resolution (2026-03-15):** Use Mermaid. It renders natively on GitHub, lives inline in the markdown with no separate files to manage, is easy to edit and version, and most static site generators support it if a docs site is added later.
 
 ---
 

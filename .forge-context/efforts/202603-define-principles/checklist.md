@@ -33,7 +33,7 @@ tracks milestones and ongoing health.
 ## Story Spawning
 
 - [x] Candidate approved
-- [ ] Story spawned from candidate
+- [x] Story spawned from candidate
 
 ---
 
@@ -45,9 +45,9 @@ progressing._
 | Indicator | Status | Last Checked |
 |-----------|--------|--------------|
 | Active contributors | @jbayer | 2026-03-12 |
-| Open threads being worked | 1 (TH-003) | 2026-03-15 |
-| Stories progressing | 1 ready (ST-001), 2 draft (ST-002, ST-003) | 2026-03-15 |
-| Candidates identified | 1 (SL-001 accepted) | 2026-03-15 |
+| Open threads being worked | 0 (all resolved) | 2026-03-15 |
+| Stories progressing | 2 completed (ST-001, ST-002), 1 ready (ST-003) | 2026-03-15 |
+| Candidates identified | 1 (SL-001 completed) | 2026-03-15 |
 
 ---
 
