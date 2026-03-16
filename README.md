@@ -10,6 +10,6 @@ The principles page explains foundational principles. Principles are not about s
 
 The concepts page introduces high-level concepts and vocabulary.
 
-## Flox Specifics
+## [Flox Specifics](flox.md)
 
 The flox page introduces specific examples with flox that illustrate concepts.
