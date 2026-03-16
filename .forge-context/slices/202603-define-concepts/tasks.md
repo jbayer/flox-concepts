@@ -7,6 +7,8 @@
 
 | ID | Task | Estimate | Status | Notes |
 |----|------|----------|--------|-------|
+| T1 | Write concepts.md | S | done | Four concepts with diagrams |
+| T2 | Update README.md to link to concepts | S | done | — |
 
 ## Status Values
 

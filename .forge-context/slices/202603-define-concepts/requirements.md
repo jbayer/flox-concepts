@@ -44,8 +44,12 @@ Follow the same pattern as principles.md: a single markdown file at the project 
 
 ## Open Questions
 
-- Should concepts reference Flox by name, or stay technology-neutral like principles? (Principles page intro/outro already mentions Flox, so likely yes)
-- What level of detail per concept? Brief overview or deeper explanation?
+_None remaining._
+
+### Resolved
+
+- **Flox naming:** Yes, concepts reference Flox by name. This is the layer where Flox vocabulary gets introduced.
+- **Detail level:** Brief overview -- heading + summary + paragraph per concept, same pattern as principles.
 
 ---
 
