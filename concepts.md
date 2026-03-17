@@ -1,10 +1,10 @@
 # Concepts
 
-The [Principles](principles.md) describe *why* reproducibility, efficiency, and simplicity matter. This page introduces the core Flox concepts that put those principles into practice.
+The [Principles](principles.md) describe *why* reproducibility, efficiency, and simplicity matter. The concepts below introduce how Flox puts the principles into practice.
 
 ## Packages
 
-Pre-built, versioned units of software ready to use.
+Packages are pre-built, versioned units of software ready to use.
 
 A package is a single piece of software -- a tool, a library, a runtime -- that has been built, tested, and stored so it can be installed reliably.
 
@@ -16,7 +16,7 @@ flowchart LR
 
 ## Dependencies
 
-Relationships between packages represented as a graph.
+Dependencies are relationships between packages represented as a graph.
 
 Software rarely stands alone. A tool may require a specific library, which in turn requires another. Dependencies describe the relationships between packages and each package version as a directed graph. 
 
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Builds
 
-Package inputs that are processed together to create outputs.
+Builds consist of package inputs that are processed together and create package outputs.
 
 Inputs are source code, configuration, environment variables, compiler flags, and dependencies on the outputs from other packages. Outputs are executable binaries, libraries, scripts, and other similar results of performing a build. 
 
@@ -53,7 +53,7 @@ flowchart LR
 
 ## Environments
 
-A complete, portable description of software.
+Environments are complete, portable descriptions of software.
 
 An environment represents the graph of packages, configuration, and scripting required to use the environment. Instead of each person installing software by hand and hoping the versions match, the environment describes what is needed and produces the same result everywhere.
 
@@ -66,7 +66,7 @@ flowchart LR
 
 ## Upgrades
 
-Safe, reversible changes to your software.
+Upgrades are safe, reversible changes to your software.
 
 Upgrading means building new versions of packages, and updating environments to use those updated versions. If an upgrade causes a problem, roll back to a known-good state.
 
@@ -78,6 +78,6 @@ flowchart LR
     R --> V1
 ```
 
-## Concepts to Flox Specifics
+## Flox Platform
 
-These concepts describe how Flox thinks about software management. To see how they work in practice with specific commands and examples, continue to [Flox Specifics](flox.md).
+The concepts above are implemented in Flox as a complete platform for software lifecycle management. To see how they work in practice with specific commands and examples, continue to [Flox Platform](flox.md).
