@@ -1,19 +1,23 @@
 # Overview
 
-This is a collection of markdown files that explains Flox incrementally in simple, plain language.
+This explains Flox in simple, plain language.
 
 ## Mission
 
-To empower platform teams and their builders with the best software lifecycle.
+Be the reproducible foundation for any team's software.
+
+## Vision
+
+A world where software works the same everywhere, every time.
 
 ## [Principles](principles.md)
 
-Our principles explain "the why" behind our mission.
+Our principles explain "the why" behind our mission and vision.
 
 ## [Concepts](concepts.md)
 
-The concepts page introduces high-level concepts and vocabulary.
+Introduces high-level concepts and vocabulary.
 
 ## [Flox Specifics](flox.md)
 
-The flox page introduces specific examples with flox that illustrate concepts.
+Specific details about how the platform works that implement the concepts.
