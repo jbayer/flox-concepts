@@ -17,7 +17,7 @@ flowchart LR
 
 ## Environments
 
-A Flox environment is defined by a `.flox/env/manifest.toml` file that declares the packages, configuration, environment variables, and shell hooks for a project. When you or a teammate activate the environment, Flox resolves the manifest and produces the same result. Flox CLI imperative commands also create and edit `manifest.toml` when you run `flox` commands such as: 
+A Flox environment is defined by a `.flox/env/manifest.toml` that declares the packages, configuration, environment variables, and shell hooks for a project. When you or a teammate activate the environment, Flox resolves the manifest and package versions from `.flox/env/manifest.lock` and produces the same result. Flox CLI imperative commands also create and edit `manifest.toml` when you run `flox` commands such as: 
 
 ```
 flox init
