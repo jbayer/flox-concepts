@@ -1,6 +1,6 @@
 # Principles
 
-These principles are deeply ingrained in our beliefs and Flox. Understanding them will help you understand why Flox works the way it does and where it is going from here.
+These principles are deeply ingrained in our beliefs and Flox. Understanding each principle explains why Flox works the way it does and the future ahead.
 
 ```mermaid
 flowchart TD

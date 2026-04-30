@@ -2,9 +2,13 @@
 
 This is a collection of markdown files that explains Flox incrementally in simple, plain language.
 
+## Mission
+
+To empower platform teams and their builders with the best software lifecycle.
+
 ## [Principles](principles.md)
 
-The principles page explains foundational principles. Principles are not about specific details of any particular technology, but rather about "the why".
+Our principles explain "the why" behind our mission.
 
 ## [Concepts](concepts.md)
 

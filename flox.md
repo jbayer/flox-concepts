@@ -2,7 +2,7 @@
 
 The [Concepts](concepts.md) page describes packages, dependencies, builds, environments, and upgrades. The Flox Platform implements these software concepts as a platform with structured workflows in CLI, API, and web UI.
 
-## Client and Server
+## Flox CLI and FloxHub
 
 The Flox platform has both a client and server. The client is the [Flox CLI](https://flox.dev/download/) installed on each machine that interacts with Flox. The server is called [FloxHub](https://hub.flox.dev) and is the web interface and APIs invoked by the CLI.
 
@@ -25,21 +25,20 @@ flox install nodejs python3
 flox uninstall nodejs
 ```
 
-The `.flox` directory is checked into version control alongside your code. Anyone who clones the repository and runs `flox activate` gets the same tools at the same versions. Environments can also be shared via FloxHub without requiring a shared repository with `flox activate -r <OWNER>/<ENVIRONMENT>`.
+The `.flox` directory is checked into version control alongside your code. Anyone who clones the repository and runs `flox activate` gets the same packages at the same versions. Environments can also be shared via FloxHub without requiring a shared repository with `flox activate -r <OWNER>/<ENVIRONMENT>`.
 
 ```mermaid
 flowchart LR
-    T[manifest.toml] --> R[Resolve]
-    R --> E[Environment]
-    E --> P1[nodejs]
-    E --> P2[python3]
-    E --> V[ENV Variables]
-    E --> H[Shell Hooks]
+    T[manifest.toml] --> M[manifest.lock]
+    M --> P1[nodejs]
+    M --> P2[python3]
+    M --> V[ENV Variables]
+    M --> H[Shell Hooks]
 ```
 
 ## Packages
 
-Flox maintains a Package Catalog that is derived from the 120,000+ packages in [Nixpkgs](https://github.com/NixOS/nixpkgs/) -- one of the largest curated package sets available. Each package is identified by name and version, and every version is built reproducibly so that installing a package produces the same result everywhere. You can also build and publish your own packages to the Flox Catalog.
+Flox maintains a Package Catalog that is derived from the 120,000+ packages in [Nixpkgs](https://github.com/NixOS/nixpkgs/) -- one of the largest curated package sets publicly available. Each package is identified by name and version, and built reproducibly. Flox leverages the open source nix project to guarantee that reproducible builds happen by isolating the network and filesystem such that only the tracked build inputs can impact the build outputs. Installing a package version always produces the same result everywhere. You can also build and publish your own packages to the Flox Catalog.
 
 ```mermaid
 flowchart LR
@@ -77,7 +76,7 @@ flowchart LR
 
 ## Binary Cache
 
-Packages are pre-built and put in a nix compatible binary cache, so installation is fast. Flox prefers to download cached packages rather than building packages again from source. Some software is not cached by default as Nixpkgs has a policy to not build and cache software with non-free licenses. FloxHub enables you to build and cache packages privately for your organization.
+Packages are pre-built and put in a nix compatible binary cache, so installation is fast. Flox prefers to download cached packages rather than building packages again from source. Non-free software is not cached by default as Nixpkgs has a policy to only build and cache free software. FloxHub enables you to build and cache packages privately for your organization for any license type.
 
 ## Upgrades
 
