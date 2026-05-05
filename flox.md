@@ -20,9 +20,26 @@ flowchart LR
 A Flox environment is defined by a `.flox/env/manifest.toml` that declares the packages, configuration, environment variables, and shell hooks for a project. When you or a teammate activate the environment, Flox resolves the manifest and package versions from `.flox/env/manifest.lock` and produces the same result. Flox CLI imperative commands also create and edit `manifest.toml` when you run `flox` commands such as: 
 
 ```
+# creates the .flox directory and empty templated files
 flox init
-flox install nodejs python3
-flox uninstall nodejs
+
+# installs cowsay and ponysay packages
+flox install cowsay ponysay
+
+# uninstalls ponysay
+flox uninstall ponysay
+
+# activates the flox environment and puts installed package files on your path
+flox activate
+
+# should resolve to a path in .flox
+which cowsay
+
+# leaves the flox shell
+exit
+
+# no longer resolves to the .flox package binary
+which cowsay
 ```
 
 The `.flox` directory is checked into version control alongside your code. Anyone who clones the repository and runs `flox activate` gets the same packages at the same versions. Environments can also be shared via FloxHub without requiring a shared repository with `flox activate -r <OWNER>/<ENVIRONMENT>`.
@@ -80,7 +97,7 @@ Packages are pre-built and put in a nix compatible binary cache, so installation
 
 ## Upgrades
 
-Flox environments are versioned. Each change to the manifest -- adding a package, removing one, or upgrading a version -- creates a new generation. You can upgrade packages and, if something breaks, roll back to any previous generation instantly.
+Flox environments are versioned. Each change to the manifest -- adding a package, removing one, or upgrading a version -- creates a new "generation". You can upgrade packages and, if something breaks, roll back to any previous generation instantly.
 
 ```
 flox upgrade nodejs
