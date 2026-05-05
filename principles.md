@@ -46,12 +46,12 @@ flowchart LR
 
 Managing the software you work with should be straightforward.
 
-Setting up a project, making changes, sharing your setup with a teammate, upgrading a dependency, or rolling back a mistake -- none of these should require deep expertise or carry high risk. When common tasks are simple and safe, people are more willing to keep things up to date, experiment with improvements, and collaborate without friction.
+Initializing a project, installing software, sharing your software with a teammate, upgrading a dependency, or rolling back a mistake -- none of these should require deep expertise or carry high risk. When common tasks are simple and safe, people are more willing to keep things up to date, experiment with improvements, and collaborate without friction.
 
 ```mermaid
 flowchart LR
-    Setup --> Easy
-    Change --> Easy
+    Initialize --> Easy
+    Install --> Easy
     Share --> Easy
     Rollback --> Easy
     Easy[Simple]
