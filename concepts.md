@@ -2,6 +2,20 @@
 
 The [Principles](principles.md) describe *why* reproducibility, efficiency, and simplicity matter. The concepts below introduce how Flox puts the principles into practice.
 
+
+## Environments
+
+Environments are complete, portable descriptions of software and the primary unit of usage with Flox.
+
+An environment has a collection of software packages, configuration, and scripting required to use the environment. Instead of each person installing software by hand and hoping the versions match, the environment describes what is needed and produces the same result everywhere.
+
+```mermaid
+flowchart LR
+    E[Environment] --> P1[Package A]
+    E --> P2[Package B]
+    E --> P3[Configuration]
+```
+
 ## Packages
 
 Packages are pre-built, versioned units of software ready to use.
@@ -30,7 +44,7 @@ flowchart TD
 
 ## Builds
 
-Builds consist of package inputs that are processed together and create package outputs.
+A build consists of package inputs that are processed together to create package outputs.
 
 Inputs are source code, configuration, environment variables, compiler flags, and dependencies on the outputs from other packages. Outputs are executable binaries, libraries, scripts, and other similar results of performing a build. 
 
@@ -51,24 +65,11 @@ flowchart LR
     I --> Outputs
 ```
 
-## Environments
-
-Environments are complete, portable descriptions of software.
-
-An environment represents the graph of packages, configuration, and scripting required to use the environment. Instead of each person installing software by hand and hoping the versions match, the environment describes what is needed and produces the same result everywhere.
-
-```mermaid
-flowchart LR
-    E[Environment] --> P1[Package A]
-    E --> P2[Package B]
-    E --> P3[Configuration]
-```
-
 ## Upgrades
 
 Upgrades are safe, reversible changes to your software.
 
-Upgrading means building new versions of packages, and updating environments to use those updated versions. If an upgrade causes a problem, roll back to a known-good state.
+Upgrading means building new versions of packages, and updating environments to use those updated versions. If an upgrade causes a problem, rollback to a known-good state.
 
 ```mermaid
 flowchart LR
