@@ -55,7 +55,7 @@ flowchart LR
 
 ## Packages
 
-Flox maintains a Package Catalog that is derived from the 120,000+ packages in [Nixpkgs](https://github.com/NixOS/nixpkgs/) -- one of the largest curated package sets publicly available. Each package is identified by name and version, and built reproducibly. Flox leverages the open source nix project to guarantee that reproducible builds happen by isolating the network and filesystem such that only the tracked build inputs can impact the build outputs. Installing a package version always produces the same result everywhere. You can also build and publish your own packages to the Flox Catalog.
+Flox maintains a Package Catalog that is derived from the 120,000+ packages in [Nixpkgs](https://github.com/NixOS/nixpkgs/) -- one of the largest curated package sets publicly available. Each package is identified by name and version, and built reproducibly. Flox leverages the open source nix project to guarantee that reproducible builds happen by isolating the network and filesystem such that only the tracked build inputs can impact the build outputs. Installing a package version always produces the same result everywhere. You can also build and publish your own custom packages to the Flox Catalog.
 
 ```mermaid
 flowchart LR
