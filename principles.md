@@ -12,7 +12,7 @@ A world where software execution is a mathematical guarantee — everywhere, eve
 
 ## The principles influence Flox
 
-The 3 principles below influence Flox concepts, which in turn influece the Flox platform.
+The 3 principles below influence Flox concepts, which in turn influence the Flox platform.
 
 ```mermaid
 flowchart TD
