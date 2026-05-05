@@ -4,11 +4,11 @@ This explains Flox in simple, plain language.
 
 ## Mission
 
-Be the reproducible foundation for any team's software.
+Build the deterministic foundation for the world's software and agents.
 
 ## Vision
 
-A world where software works the same everywhere, every time.
+A world where software execution is a mathematical guarantee — everywhere, every time.
 
 ## [Principles](principles.md)
 
