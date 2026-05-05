@@ -1,6 +1,10 @@
 # Overview
 
-This explains Flox in simple, plain language.
+This repository explains Flox in simple, plain language.
+
+## What is Flox?
+
+Flox is a package and environment manager that lets you create reproducible environments that work across machines, architectures, and operating systems.
 
 ## Mission
 
