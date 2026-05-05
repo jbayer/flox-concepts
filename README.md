@@ -6,14 +6,6 @@ This repository explains Flox in simple, plain language.
 
 Flox is a package and environment manager that lets you create reproducible environments that work across machines, architectures, and operating systems.
 
-## Mission
-
-Build the deterministic foundation for the world's software and agents.
-
-## Vision
-
-A world where software execution is a mathematical guarantee — everywhere, every time.
-
 ## [Principles](principles.md)
 
 Our principles explain "the why" behind our mission and vision.
