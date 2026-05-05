@@ -47,8 +47,8 @@ The `.flox` directory is checked into version control alongside your code. Anyon
 ```mermaid
 flowchart LR
     T[manifest.toml] --> M[manifest.lock]
-    M --> P1[nodejs]
-    M --> P2[python3]
+    M --> P1[cowsay]
+    M --> P2[ponysay]
     M --> V[ENV Variables]
     M --> H[Shell Hooks]
 ```
@@ -100,7 +100,7 @@ Packages are pre-built and put in a nix compatible binary cache, so installation
 Flox environments are versioned. Each change to the manifest -- adding a package, removing one, or upgrading a version -- creates a new "generation". You can upgrade packages and, if something breaks, roll back to any previous generation instantly.
 
 ```
-flox upgrade nodejs
+flox upgrade cowsay
 flox list --generations
 flox rollback
 ```
