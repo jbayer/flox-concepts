@@ -114,3 +114,7 @@ flowchart LR
     G2 --> RB[Rollback]
     RB --> G1
 ```
+
+## Next steps
+
+We recommend [trying Flox tutorials](https://flox.dev/docs/tutorials/creating-environments/).
