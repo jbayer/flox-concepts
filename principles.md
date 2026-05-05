@@ -1,6 +1,14 @@
 # Principles
 
-These principles are deeply ingrained in our beliefs and Flox. Understanding each principle explains why Flox works the way it does and the future ahead.
+Our mission and vision informs why we have adopted the 3 principles.
+
+## Mission
+
+Build the deterministic foundation for the world's software and agents.
+
+## Vision
+
+A world where software execution is a mathematical guarantee — everywhere, every time.
 
 ```mermaid
 flowchart TD
@@ -8,7 +16,7 @@ flowchart TD
     C --> I[Platform]
 ```
 
-## Reproducibility
+## 1. Reproducibility
 
 Same inputs, same results -- and you can prove it.
 
@@ -25,7 +33,7 @@ flowchart LR
     R --> V{Verified ✓}
 ```
 
-## Efficiency
+## 2. Efficiency
 
 Do work once. Repeatably reuse the results.
 
@@ -42,7 +50,7 @@ flowchart LR
     R3 --> F3[Fast Setup]
 ```
 
-## Simplicity
+## 3. Simplicity
 
 Managing the software you work with should be straightforward.
 
