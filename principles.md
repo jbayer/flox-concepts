@@ -10,6 +10,8 @@ Build the deterministic foundation for the world's software and agents.
 
 A world where software execution is a mathematical guarantee — everywhere, every time.
 
+The 3 principles below, influence the concepts, which influece the platform implementation.
+
 ```mermaid
 flowchart TD
     P[Principles] --> C[Concepts]
