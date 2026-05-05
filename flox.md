@@ -93,7 +93,7 @@ flowchart LR
 
 ## Binary Cache
 
-Packages are pre-built and put in a nix compatible binary cache, so installation is fast. Flox prefers to download cached packages rather than building packages again from source. Non-free software is not cached by default as Nixpkgs has a policy to only build and cache free software. FloxHub enables you to build and cache packages privately for your organization for any license type.
+Packages are pre-built and put in a nix compatible binary cache (typically an s3 compatible bucket), so package installation is fast. Flox prefers to download cached packages rather than building packages again from source. Packages with non-free software licenses are not cached by default as Nixpkgs has a policy to only build and cache OSI compliant software. FloxHub enables you to build and cache packages privately for your organization for any license type.
 
 ## Upgrades
 
