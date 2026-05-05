@@ -8,7 +8,7 @@ Flox is a package and environment manager that lets you create reproducible envi
 
 ## [Principles](principles.md)
 
-Our principles explain "the why" behind our mission and vision.
+Explains our mission and vision and what principles motivate how Flox works.
 
 ## [Concepts](concepts.md)
 
