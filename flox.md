@@ -4,7 +4,7 @@ The [Concepts](concepts.md) page describes packages, dependencies, builds, envir
 
 ## Flox CLI and FloxHub
 
-The Flox platform has both a client and server. The client is the [Flox CLI](https://flox.dev/download/) installed on each machine that interacts with Flox. The server is called [FloxHub](https://hub.flox.dev) and is the web interface and APIs invoked by the CLI.
+The Flox platform has both a client and server. The client is the [Flox CLI](https://flox.dev/download/) installed on each machine that uses Flox. The server is called [FloxHub](https://hub.flox.dev) and is the web interface and APIs invoked by the CLI. FloxHub is hosted SaaS by Flox or organizations can deploy their own FloxHub in their cloud account or on on-premises.
 
 ```mermaid
 flowchart LR
